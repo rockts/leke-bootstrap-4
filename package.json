@@ -1,0 +1,12 @@
+{
+  "name": "leke-bootstrao-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync start --server --no-notity --files='index.html, *.css, *.js'"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
