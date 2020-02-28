@@ -1,6 +1,6 @@
 var http = require("http");
 var createHandler = require("node-github-webhook");
-var handler = createHandler({ path: "/app", secret: "appsecret" }); // single handler
+var handler = createHandler({ path: "/app", secret: "123456" }); // single handler
 function execFunc(content) {
   var exec = require("child_process").exec;
   exec(content, function(error, stdout, stderr) {
