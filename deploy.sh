@@ -5,6 +5,6 @@ cd $PROJECT_DIR
 echo 'pull code'
 git reset --hard origin/master && git clean -f
 git pull && git checkout master
-echo 'run npm script'
-npm run build
+echo 'run npm install'
+npm install
 echo 'finished'
