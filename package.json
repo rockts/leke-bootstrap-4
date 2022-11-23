@@ -7,7 +7,7 @@
     "start": "./node_modules/.bin/browser-sync start --server --no-notity --files='index.html, *.css, *.js'"
   },
   "dependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "node-github-webhook": "^1.0.7"
   }
 }
